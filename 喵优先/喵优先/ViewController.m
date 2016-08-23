@@ -16,9 +16,10 @@
 @implementation ViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"首页";
-    NSLog(@"怎么啥都没有啊");
+
+
     [self createSV];
+        self.navigationItem.title = @"首页";
 }
 -(void)createSV{
     self.scorllView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
