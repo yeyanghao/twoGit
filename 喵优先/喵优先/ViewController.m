@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
+    NSLog(@"怎么啥都没有啊");
     [self createSV];
 }
 -(void)createSV{
