@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071893981D6C6400001FA3EA /* HHHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071893961D6C6400001FA3EA /* HHHViewController.m */; };
+		071893991D6C6400001FA3EA /* HHHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071893971D6C6400001FA3EA /* HHHViewController.xib */; };
 		074DA2FF1D6341630092DFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074DA2FE1D6341630092DFE2 /* main.m */; };
 		074DA3021D6341630092DFE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074DA3011D6341630092DFE2 /* AppDelegate.m */; };
 		074DA3051D6341630092DFE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074DA3041D6341630092DFE2 /* ViewController.m */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071893951D6C6400001FA3EA /* HHHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHViewController.h; sourceTree = "<group>"; };
+		071893961D6C6400001FA3EA /* HHHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHViewController.m; sourceTree = "<group>"; };
+		071893971D6C6400001FA3EA /* HHHViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHHViewController.xib; sourceTree = "<group>"; };
 		074DA2FA1D6341630092DFE2 /* 喵优先.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "喵优先.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074DA2FE1D6341630092DFE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		074DA3001D6341630092DFE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 				078C17A11D6AD6EB00FD12DD /* MeViewController.h */,
 				078C17A21D6AD6EB00FD12DD /* MeViewController.m */,
 				078C17A31D6AD6EB00FD12DD /* MeViewController.xib */,
+				071893951D6C6400001FA3EA /* HHHViewController.h */,
+				071893961D6C6400001FA3EA /* HHHViewController.m */,
+				071893971D6C6400001FA3EA /* HHHViewController.xib */,
 				074DA3061D6341630092DFE2 /* Main.storyboard */,
 				074DA3091D6341630092DFE2 /* Assets.xcassets */,
 				074DA30B1D6341630092DFE2 /* LaunchScreen.storyboard */,
@@ -166,6 +174,7 @@
 				074DA30A1D6341630092DFE2 /* Assets.xcassets in Resources */,
 				074DA3081D6341630092DFE2 /* Main.storyboard in Resources */,
 				07B3EDBA1D649792003A4C6B /* aaaViewController.xib in Resources */,
+				071893991D6C6400001FA3EA /* HHHViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 				07B3EDB91D649792003A4C6B /* aaaViewController.m in Sources */,
 				074DA3021D6341630092DFE2 /* AppDelegate.m in Sources */,
 				074DA2FF1D6341630092DFE2 /* main.m in Sources */,
+				071893981D6C6400001FA3EA /* HHHViewController.m in Sources */,
 				07B3EDC01D649969003A4C6B /* HeaderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
